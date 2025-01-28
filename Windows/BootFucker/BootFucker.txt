@@ -1,5 +1,6 @@
 REM Script Created By Social :3
 REM Join https://discord.gg/cZ3vw4dHpF For More.
+REM Please Check Out https://github.com/Socialffr/M5-BadUSB-BadBLE-Scripts If You Didn't Already.
 DELAY 500
 GUI r
 DELAY 500
